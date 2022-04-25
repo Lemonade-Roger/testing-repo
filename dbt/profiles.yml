@@ -1,18 +1,18 @@
-onfig:
+config:
   partial_parse: false
   use_colors: true
   printer_width: 80
   send_anonymous_usage_stats: false
 
 lemonade-testing:
-  target: test
+  target: dev
   outputs:
-    test:
+    dev:
       type: bigquery
       method: oauth
       project:  brilliant-scene-342208
       execution_project:  brilliant-scene-342208
-      schema: na
+      schema: dbt_rlopez
       threads: 4
       timeout_seconds: 300
       location: EU
