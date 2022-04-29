@@ -1,0 +1,9 @@
+
+
+============================== 2022-04-26 06:35:30.053702 | 49437a89-9949-4ebf-be25-7aa7f02c08b6 ==============================
+06:35:30.053702 [info ] [MainThread]: Running with dbt=1.0.5
+06:35:30.056204 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.debug.DebugTask'>, config_dir=True, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/rogerlopez/Lemonade/Repositories/testing-repo/dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='debug', write_json=None)
+06:35:30.057910 [debug] [MainThread]: Tracking: do not track
+06:35:30.107670 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/rogerlopez/Lemonade/Repositories/testing-repo/dbt
